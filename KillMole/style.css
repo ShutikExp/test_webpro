@@ -1,0 +1,86 @@
+body{
+    background: url(img/wallper.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.circleImg{
+    position: absolute;
+    width: 10%;
+
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    pointer-events: none;
+}
+
+.demonImg{
+    position: absolute ;
+    width: 8%;
+    margin: 1% 1% 1% 1%;
+    -webkit-animation: pulsing 1s infinite;
+    animation: pulsing 1s infinite;
+
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.bloodImg{
+    position: absolute ;
+    width: 10%;
+
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    pointer-events: none;
+}
+
+.demonField{
+    width: 10%;
+    margin: 10% 0% 2% 2%;
+    display: inline-block;
+}
+
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0, 0);
+      transform: scale(0, 0);
+    }
+}
+
+@keyframes pulsing{
+    0% {
+        -webkit-transform: scale(0, 0);
+        transform: scale(0, 0)
+    }
+    50% {
+        -webkit-transform: scale(1.0, 1.0);
+        transform: scale(1.0, 1.0);
+    }
+    100% {
+        -webkit-transform: scale(0, 0);
+        transform: scale(0, 0);
+    }
+}
+
+#Field{
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+    white-space: pre;
+
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}

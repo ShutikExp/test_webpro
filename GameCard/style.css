@@ -1,0 +1,45 @@
+body{
+    background: url(img/back.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.t3d{
+    width: 150px;
+    height: 220px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.rotate{
+    position: relative;
+    transition: 0.4s;
+    transform-style: preserve-3d;
+}
+
+.oncard{
+    height: 220px;
+    width: 150px;
+    transform: rotateY(180deg);
+}
+
+.bimg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+img, .bimg2{
+    border:  0px double #ccc;
+    border-radius: 10px;
+    width:  150px;
+    height: 220px;
+    background: #fff;
+    
+}
+
+#CardTable {
+    width: 1400px;
+    margin: auto;
+    white-space: pre;
+}
